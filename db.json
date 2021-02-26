@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "writer@mail.com",
+      "password": 123456,
+      "role": "writer"
+    },
+    {
+      "id": 2,
+      "login": "reader@mail.com",
+      "password": 123456,
+      "role": "reader"
+    },
+    {
+      "id": 3,
+      "login": "3@3",
+      "password": 3,
+      "role": "writer"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Название пост",
+      "description": "Текстsdsdфыва",
+      "claps": 0,
+      "createdAt": "2019-09-29T00:00:00.000Z",
+      "updateAt": "2021-02-26T09:25:45.688Z",
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "title": "Название поста",
+      "description": "Текст",
+      "claps": 1,
+      "createdAt": "2019-09-29T00:00:00.000Z",
+      "updateAt": "2019-09-29T00:00:00.000Z",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Название постаd",
+      "description": "ТекстТуее",
+      "claps": 2,
+      "createdAt": "2019-09-29T00:00:00.000Z",
+      "updateAt": "2019-09-29T00:00:00.000Z",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "Название поста",
+      "description": "Текст",
+      "claps": 3,
+      "createdAt": "2019-09-29T00:00:00.000Z",
+      "updateAt": "2019-09-29T00:00:00.000Z",
+      "userId": 1
+    },
+    {
+      "title": "testdddsn",
+      "description": "dsfggdfsf",
+      "claps": 0,
+      "updateAt": "2021-02-26T13:05:23.063Z",
+      "createdAt": "2021-02-26T09:38:55.762Z",
+      "id": 1614332335762,
+      "userId": "3"
+    },
+    {
+      "title": "dddsfsdfgh",
+      "description": "dsfggdfsf",
+      "claps": 10,
+      "updateAt": "2021-02-26T13:05:12.826Z",
+      "createdAt": "2021-02-26T09:39:02.857Z",
+      "id": 1614332342857,
+      "userId": "3"
+    },
+    {
+      "title": "asdf",
+      "description": "asdsdd",
+      "claps": 0,
+      "updateAt": "2021-02-26T09:39:46.522Z",
+      "createdAt": "2021-02-26T09:39:46.522Z",
+      "id": 1614332386522,
+      "userId": "3"
+    },
+    {
+      "title": "sad",
+      "description": "safsad",
+      "id": 1614332414224,
+      "claps": 7,
+      "updateAt": "2021-02-26T09:40:14.224Z",
+      "createdAt": "2021-02-26T09:40:14.224Z",
+      "userId": "3"
+    },
+    {
+      "title": "sadff",
+      "description": "sadffas",
+      "id": 1614332418149,
+      "claps": 0,
+      "updateAt": "2021-02-26T09:40:18.148Z",
+      "createdAt": "2021-02-26T09:40:18.148Z",
+      "userId": "3"
+    },
+    {
+      "title": "dsafddsad",
+      "description": "fasdfasd",
+      "id": 1614332422872,
+      "claps": 0,
+      "updateAt": "2021-02-26T09:40:22.872Z",
+      "createdAt": "2021-02-26T09:40:22.872Z",
+      "userId": "3"
+    },
+    {
+      "title": "sadffasd",
+      "description": "asfsad",
+      "id": 1614332427272,
+      "claps": 0,
+      "updateAt": "2021-02-26T09:40:27.272Z",
+      "createdAt": "2021-02-26T09:40:27.272Z",
+      "userId": "3"
+    },
+    {
+      "title": "test 122",
+      "description": "1223",
+      "id": 1614344736882,
+      "claps": 0,
+      "updateAt": "2021-02-26T13:05:36.882Z",
+      "createdAt": "2021-02-26T13:05:36.882Z",
+      "userId": "3"
+    },
+    {
+      "title": "sadsaf",
+      "description": "fffdsa",
+      "id": 1614344746258,
+      "claps": 0,
+      "updateAt": "2021-02-26T13:05:46.258Z",
+      "createdAt": "2021-02-26T13:05:46.258Z",
+      "userId": "3"
+    },
+    {
+      "title": "ffffffff",
+      "description": "ggggggg",
+      "claps": 0,
+      "updateAt": "2021-02-26T13:08:45.118Z",
+      "createdAt": "2021-02-26T13:08:35.004Z",
+      "id": 1614344915005,
+      "userId": 1
+    }
+  ]
+}
