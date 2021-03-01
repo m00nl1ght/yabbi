@@ -24,7 +24,7 @@
       "id": 1,
       "title": "Название пост",
       "description": "Текстsdsdфыва",
-      "claps": 0,
+      "claps": 26,
       "createdAt": "2019-09-29T00:00:00.000Z",
       "updateAt": "2021-02-26T09:25:45.688Z",
       "userId": 3
@@ -33,7 +33,7 @@
       "id": 2,
       "title": "Название поста",
       "description": "Текст",
-      "claps": 1,
+      "claps": 4,
       "createdAt": "2019-09-29T00:00:00.000Z",
       "updateAt": "2019-09-29T00:00:00.000Z",
       "userId": 1
@@ -114,7 +114,7 @@
       "title": "sadffasd",
       "description": "asfsad",
       "id": 1614332427272,
-      "claps": 0,
+      "claps": 4,
       "updateAt": "2021-02-26T09:40:27.272Z",
       "createdAt": "2021-02-26T09:40:27.272Z",
       "userId": "3"
@@ -129,21 +129,21 @@
       "userId": "3"
     },
     {
-      "title": "sadsaf",
+      "title": "sadsaf111",
       "description": "fffdsa",
       "id": 1614344746258,
-      "claps": 0,
-      "updateAt": "2021-02-26T13:05:46.258Z",
+      "claps": 1,
+      "updateAt": "2021-02-28T17:12:20.192Z",
       "createdAt": "2021-02-26T13:05:46.258Z",
       "userId": "3"
     },
     {
-      "title": "ffffffff",
-      "description": "ggggggg",
+      "title": "Новый пост",
+      "description": "Описание новый пост изменить",
       "claps": 0,
-      "updateAt": "2021-02-26T13:08:45.118Z",
-      "createdAt": "2021-02-26T13:08:35.004Z",
-      "id": 1614344915005,
+      "updateAt": "2021-02-28T17:18:18.306Z",
+      "createdAt": "2021-02-28T17:17:54.178Z",
+      "id": 1614532674178,
       "userId": 1
     }
   ]

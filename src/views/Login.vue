@@ -1,5 +1,13 @@
 <template>
       <form class="column form" @submit.prevent="onSubmit">
+        <b-message 
+          title="Error" 
+          type="is-danger" 
+          v-model="isActive" 
+          aria-close-label="Close message"
+        >{{ message }}
+        </b-message>
+
         <b-field label="Email">
             <b-input type="email"
                 v-model="email"
@@ -16,14 +24,21 @@
         </b-field>
 
         <b-button native-type="submit" type="is-success">Login</b-button>
+
+        <BackButton class="ml-3"/>
       </form>
 </template>
 
 <script>
+import BackButton from "@/components/post/BackButton"
 export default {
+  components: {BackButton},
+
   data: () => ({
     email: '',
-    password: ''
+    password: '',
+    isActive: false,
+    message: ''
   }),
 
   methods: {
@@ -33,7 +48,8 @@ export default {
         if(response.status) {
           this.$router.push({name: 'posts'})
         }
-        //написать вывод сообщений об ошибках здесь
+        this.isActive = true
+        this.message = response.message
       })
     }
   },

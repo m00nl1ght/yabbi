@@ -12,7 +12,7 @@ const state = () => ({
     paginate: {
         total: 0,
         current: 1,
-        perPage: 4,
+        perPage: 10,
     }
 })
 

@@ -7,7 +7,7 @@
       <router-link 
         :to="{name: 'post-add'}"
         class="button is-info"
-      >Новый</router-link>
+      >Новый пост</router-link>
     </div>
 
     <Card

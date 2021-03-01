@@ -19,11 +19,10 @@ const actions = {
     return new Promise((resolve, reject) => {
       HTTP.get('/users?login=' + credentials.email)
       .then((response) => {
-        console.log(response.data)
         if(response.data.length == 0) {
           resolve({
             status: false,
-            message: 'Имя пользователя не найдено'
+            message: 'Данный пользователь не существует'
           })
         } else if(response.data[0].password == credentials.password) {
           context.commit('login', {
@@ -38,7 +37,7 @@ const actions = {
         } else {
           resolve({
             status: false,
-            message: 'Password incorrect'
+            message: 'Неверный пароль, попробуйте еще'
           })
         }
 
